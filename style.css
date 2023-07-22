@@ -1,0 +1,62 @@
+body{
+    color:#011F3F ;
+     text-align: center; 
+     overflow-y: scroll;
+     background-color: #011F3F;
+}
+#lv-title{
+    color: aliceblue;
+    font-size: 3rem;
+    margin-top: 80px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+#container{
+    display: block;
+  width: 50%;
+  margin: auto;
+ 
+   
+    
+}
+
+.btn{
+    padding: 10px;
+    height: 110px;
+    width: 110px;
+    display: inline-block; 
+    margin: 20px;
+    border: 6px solid black;
+    border-radius: 40px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+
+}
+.yellow{
+    background-color: yellow;
+
+}
+.blue{
+    background-color: blue;
+}
+.pressed{
+    
+        box-shadow: 0 0 20px white;
+        background-color: grey;
+      
+}
+
+.pressed{
+    box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.game-over{
+    
+    background-color: red;
+    opacity: 0.8;
+}
